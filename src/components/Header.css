@@ -1,0 +1,19 @@
+.navbar-brand {
+    font-size: 2rem;
+    color: yellow;
+}
+.navbar-brand:hover {
+    color: yellow;
+}
+.navbar-nav .nav-item .nav-link{
+    font-size: 1.2rem;
+    color: white !important;
+}
+
+.navbar-nav .nav-item .nav-link:hover{
+    color: yellow !important;
+}
+
+.navbar-toggler {
+    background-color: yellow;
+}
