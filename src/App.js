@@ -4,6 +4,7 @@ import Header from "./components/Header";
 import Home from "./components/Home";
 import About from "./components/About";
 import Skills from './components/Skills';
+import Projects from "./components/Projects";
 
 function App() {
   const [active, setActive] = useState("");
@@ -14,6 +15,7 @@ function App() {
       <Home setActive={setActive}/>
       <About setActive={setActive} />
       <Skills setActive={setActive}/>
+      <Projects setActive={setActive}/>
     </div>
   );
 }
