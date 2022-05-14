@@ -1,8 +1,18 @@
+import React, {useRef} from 'react'
+
 import "./About.css";
+import useOnScreen from '../useOnScreen';
 import { headerIds } from "../globals";
 
 // TODO: add details about yourself
-export default function About() {
+export default function About( {setActive} ) {
+    
+    const ref = useRef()
+    const isVisible = useOnScreen(ref)
+
+    // is this okay? will this be an issue to cal like this?
+    setActive(isVisible ? "about" : "")
+
     return (
         <section className="content-section about" id={headerIds.about}>
             <div className="container">
@@ -34,7 +44,7 @@ export default function About() {
                                 </a>
                             </div>
                         </div>
-                        <div class="card-footer">
+                        <div class="card-footer" ref={ref}>
                             <div className="col-lg-10 mx-auto text-center">
                                 <h4> Learn more about my: </h4>
                                 <a class="p-3 m-2 btn btn-dark btn-lg shadow-lg border" href={"#"+headerIds.skills} role="button">
