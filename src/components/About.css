@@ -1,0 +1,12 @@
+.about {
+    background-color: var(--backround);
+}
+
+.fab {
+    /* padding: 5px; */
+    text-align: center;
+    text-decoration: none;
+}
+.fab:hover {
+    opacity: 0.7;
+}

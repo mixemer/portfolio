@@ -7,8 +7,10 @@
   --primary: #92c8f7;
   --active: #8ac4f7;
   --backround: rgb(28, 30, 31);
+
   --backround-2: #6787AB;
   --backround-3: #4B4C2A;
+  --backround-4: #DEE6F0;
 }
 
 html {
@@ -36,3 +38,7 @@ a:visited { text-decoration: none; }
 a:hover { text-decoration: none; }
 
 a:active { text-decoration: none; }
+
+.content-section {
+  padding: 5rem;
+}
