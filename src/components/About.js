@@ -1,10 +1,10 @@
 import "./About.css";
-
+import { headerIds } from "../globals";
 
 // TODO: add details about yourself
 export default function About() {
     return (
-        <section className="content-section about">
+        <section className="content-section about" id={headerIds.about}>
             <div className="container">
                 <div className="card mb-3 bg-transparent">
                     <div className="row g-0">
@@ -37,13 +37,13 @@ export default function About() {
                         <div class="card-footer">
                             <div className="col-lg-10 mx-auto text-center">
                                 <h4> Learn more about my: </h4>
-                                <a class="p-3 m-2 btn btn-dark btn-lg shadow-lg border" href="#!" role="button">
+                                <a class="p-3 m-2 btn btn-dark btn-lg shadow-lg border" href={"#"+headerIds.skills} role="button">
                                     Skills
                                 </a>
-                                <a class="p-3 m-2 btn btn-dark btn-lg shadow-lg border" href="#!" role="button">
+                                <a class="p-3 m-2 btn btn-dark btn-lg shadow-lg border" href={"#"+headerIds.projects} role="button">
                                     Projects
                                 </a>
-                                <a class="p-3 m-2 btn btn-dark btn-lg shadow-lg border" href="#!" role="button">
+                                <a class="p-3 m-2 btn btn-dark btn-lg shadow-lg border" href={"#"+headerIds.timeline} role="button">
                                     Timeline
                                 </a>
                                 <a class="p-3 m-2 btn btn-secondary btn-lg shadow-lg border" href="#!" role="button">
