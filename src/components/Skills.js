@@ -18,10 +18,12 @@ export default function Skills() {
                 <br></br>
 
                 <div class="row">
-                    <SkillCard />
-                    <SkillCard />
-                    <SkillCard />
-                    <SkillCard />
+                    <SkillCard title="Unity, C#" icon={<i class="fa-brands fa-unity"></i>}/>
+                    <SkillCard title="IOS, Swift" icon={<i class="fa-brands fa-apple"></i>}/>
+                    <SkillCard title="Flutter, Dart" icon={<i class="fa-solid fa-f"></i>}/>
+                    <SkillCard title="C++" icon={<i class="fa-solid fa-c"></i>}/>
+                    <SkillCard title="JavaScript, HTML, CSS" icon={<i class="fa-solid fa-code"></i>}/>
+                    <SkillCard title="Machine Learning, Artificial Intelligence" icon={<i class="fa-solid fa-share-nodes"></i>}/>
                 </div>
             </div>
         </section>

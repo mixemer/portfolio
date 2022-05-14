@@ -5,3 +5,10 @@ export const headerIds = {
     timeline: "timeline",
     contact: "contact"
 }
+
+export const skills = {
+    cplusplus: {
+        name: "c++",
+        description: ""
+    }
+}
