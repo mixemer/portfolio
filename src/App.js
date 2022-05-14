@@ -11,7 +11,7 @@ function App() {
   return (
     <div className="App">
       <Header active={active} setActive={setActive} />
-      <Home />
+      <Home setActive={setActive}/>
       <About setActive={setActive} />
       <Skills setActive={setActive}/>
     </div>

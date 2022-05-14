@@ -1,21 +1,19 @@
 import React, {useRef, useEffect} from 'react'
+import useOnScreen from '../useOnScreen';
 
 import "./About.css";
-import useOnScreen from '../useOnScreen';
 import { headerIds } from "../globals";
 
 // TODO: add details about yourself
 export default function About( {setActive} ) {
-    
     const ref = useRef()
     const isVisible = useOnScreen(ref)
 
-    // is this okay? will this be an issue to cal like this?
-    setActive(isVisible ? "about" : "")
-
     useEffect(() => {
-        setActive(isVisible ? "about" : "")
-      }, [])
+        if (isVisible) {
+            setActive("about")
+        }
+      }, [isVisible])
 
     return (
         <section className="content-section about" id={headerIds.about}>
