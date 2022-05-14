@@ -1,19 +1,40 @@
+.navbar-shrink {
+    font-size: 1rem !important;
+    background-color: var(--backround);
+    padding: 10px !important;
+}
+
+.navbar-expand-lg, .bg-transparent, .navbar-shrink {
+    transition: 0.15s all ease;
+}
+
 .navbar-brand {
     font-size: 2rem;
-    color: yellow;
+    color: var(--primary);
 }
-.navbar-brand:hover {
-    color: yellow;
+.navbar-brand:visited, .navbar-brand:active {
+    color: var(--primary);
 }
+
 .navbar-nav .nav-item .nav-link{
     font-size: 1.2rem;
-    color: white !important;
+    color: white;
+    transition: 0.15s all ease;
 }
 
 .navbar-nav .nav-item .nav-link:hover{
-    color: yellow !important;
+    color: var(--primary);
+    transition: 0.15s all ease;
+}
+
+.navbar-nav .nav-item .active{
+    font-size: 1.2rem;
+    color: var(--active);
+    transition: 0.15s all ease;
 }
 
 .navbar-toggler {
-    background-color: yellow;
+    background-color: var(--primary);
+    transition: 0.15s all ease;
 }
+
