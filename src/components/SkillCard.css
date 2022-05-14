@@ -1,0 +1,22 @@
+.card-body {
+    color: white;
+}
+
+.service-icon i {
+    margin: 1rem 1rem 0 1rem;
+    padding: 2rem;
+    font-size: 8rem;
+    font-weight:bold;
+    background-color: var(--bs-dark);
+    color: var(--primary);
+
+    width: 200px;
+    height: 200px;
+    border-radius: 125px;
+    -webkit-border-radius: 125px;
+    -moz-border-radius: 125px;
+}
+.service-icon {
+    padding: 0 !important;
+    margin: 0 !important;
+}
