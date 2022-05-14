@@ -1,4 +1,4 @@
-import React, {useRef} from 'react'
+import React, {useRef, useEffect} from 'react'
 
 import "./About.css";
 import useOnScreen from '../useOnScreen';
@@ -13,6 +13,10 @@ export default function About( {setActive} ) {
     // is this okay? will this be an issue to cal like this?
     setActive(isVisible ? "about" : "")
 
+    useEffect(() => {
+        setActive(isVisible ? "about" : "")
+      }, [])
+
     return (
         <section className="content-section about" id={headerIds.about}>
             <div className="container">
@@ -26,37 +30,37 @@ export default function About( {setActive} ) {
                                 <h4 className="card-title">Mehmet Sahin</h4>
                                 <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                             </div>
-                            <div class="card-footer">
-                                <a class="btn btn-primary" style={{backgroundColor: "#333333"}} href="#!" role="button">
-                                    <i class="fab fa-github"></i>
+                            <div className="card-footer">
+                                <a className="btn btn-primary" style={{backgroundColor: "#333333"}} href="#!" role="button">
+                                    <i className="fab fa-github"></i>
                                 </a>
 
-                                <a class="btn btn-primary" style={{backgroundColor: "#0082ca", margin: "10px"}} href="#!" role="button">
-                                    <i class="fab fa-linkedin-in"></i>
+                                <a className="btn btn-primary" style={{backgroundColor: "#0082ca", margin: "10px"}} href="#!" role="button">
+                                    <i className="fab fa-linkedin-in"></i>
                                 </a>
 
-                                {/* <a class="btn btn-primary" style={{backgroundColor: "#3b5998"}} href="#!" role="button">
-                                    <i class="fab fa-facebook-f"></i>
+                                {/* <a className="btn btn-primary" style={{backgroundColor: "#3b5998"}} href="#!" role="button">
+                                    <i className="fab fa-facebook-f"></i>
                                 </a> */}
                                 
-                                <a class="btn btn-primary" style={{backgroundColor: "#55acee"}} href="#!" role="button">
-                                    <i class="fab fa-twitter"></i>
+                                <a className="btn btn-primary" style={{backgroundColor: "#55acee"}} href="#!" role="button">
+                                    <i className="fab fa-twitter"></i>
                                 </a>
                             </div>
                         </div>
-                        <div class="card-footer" ref={ref}>
+                        <div className="card-footer" ref={ref}>
                             <div className="col-lg-10 mx-auto text-center">
                                 <h4> Learn more about my: </h4>
-                                <a class="p-3 m-2 btn btn-dark btn-lg shadow-lg border" href={"#"+headerIds.skills} role="button">
+                                <a className="p-3 m-2 btn btn-dark btn-lg shadow-lg border" href={"#"+headerIds.skills} role="button">
                                     Skills
                                 </a>
-                                <a class="p-3 m-2 btn btn-dark btn-lg shadow-lg border" href={"#"+headerIds.projects} role="button">
+                                <a className="p-3 m-2 btn btn-dark btn-lg shadow-lg border" href={"#"+headerIds.projects} role="button">
                                     Projects
                                 </a>
-                                <a class="p-3 m-2 btn btn-dark btn-lg shadow-lg border" href={"#"+headerIds.timeline} role="button">
+                                <a className="p-3 m-2 btn btn-dark btn-lg shadow-lg border" href={"#"+headerIds.timeline} role="button">
                                     Timeline
                                 </a>
-                                <a class="p-3 m-2 btn btn-secondary btn-lg shadow-lg border" href="#!" role="button">
+                                <a className="p-3 m-2 btn btn-secondary btn-lg shadow-lg border" href="#!" role="button">
                                     Resume
                                 </a>
                             </div>

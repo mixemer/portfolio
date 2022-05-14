@@ -11,7 +11,7 @@ function Home() {
 
                 <br></br>
 
-                <button type="button" class="p-3 btn btn-light btn-lg">Enter Portfolio </button>
+                <button type="button" className="p-3 btn btn-light btn-lg">Enter Portfolio </button>
 
                 </div>
             </div>
