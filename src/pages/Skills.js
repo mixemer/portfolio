@@ -3,7 +3,7 @@ import useOnScreen from '../useOnScreen';
 
 import "./Skills.css";
 import { headerIds } from "../globals";
-import SkillCard from "./SkillCard";
+import SkillCard from "../components/SkillCard";
 
 export default function Skills( {setActive} ) {
     const ref = useRef()
