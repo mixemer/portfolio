@@ -122,7 +122,7 @@ export default function Contact({ setActive }) {
 
                 <div className='row mt-5'>
                     <div className='col-lg-12'>
-                        <form id='contactForm' className='needs-validation' name='sentMessage' novalidate onSubmit={onSubmit}>
+                        <form id='contactForm' className='needs-validation' name='sentMessage' noValidate onSubmit={onSubmit}>
                             <div className='row'>
                                 <div className='col-md-6'>
                                     {/* Name Input */}
