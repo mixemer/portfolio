@@ -23,13 +23,13 @@ export default function Contact({ setActive }) {
                         <h2 className='section-heading'> Contact Me </h2>
                         <h5 className='contact-info'>
                             Email: 
-                            <a className='lead' href='mailto:ewadkins@mit.edu'> mehmetmshin@gmail.com </a>
+                            <a className='lead' href='mailto:mehmetmshin@gmail.com'> mehmetmshin@gmail.com </a>
                             {/* ||
-                            <a className='lead' href='mailto:info@ericwadkins.com'>  </a> */}
+                            <a className='lead' href=''>  </a> */}
                         </h5>
                         {/* <h5 className='contact-info'>
                             Phone:
-                            <a className='lead' href='tel:6178395035'></a>
+                            <a className='lead' href='tel:'></a>
                         </h5> */}
 
                         <br></br>
