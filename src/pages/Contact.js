@@ -23,14 +23,14 @@ export default function Contact({ setActive }) {
                         <h2 className='section-heading'> Contact Me </h2>
                         <h5 className='contact-info'>
                             Email: 
-                            <a className='lead' href='mailto:ewadkins@mit.edu'> ewadkins@mit.edu </a>
-                            ||
-                            <a className='lead' href='mailto:info@ericwadkins.com'> ewadkins83@gmail.com </a>
+                            <a className='lead' href='mailto:ewadkins@mit.edu'> mehmetmshin@gmail.com </a>
+                            {/* ||
+                            <a className='lead' href='mailto:info@ericwadkins.com'>  </a> */}
                         </h5>
-                        <h5 className='contact-info'>
+                        {/* <h5 className='contact-info'>
                             Phone:
-                            <a className='lead' href='tel:6178395035'>617-839-5035</a>
-                        </h5>
+                            <a className='lead' href='tel:6178395035'></a>
+                        </h5> */}
 
                         <br></br>
 
@@ -40,20 +40,48 @@ export default function Contact({ setActive }) {
                     </div>
                 </div>
 
-                {/* <div className='row mt-5'>
+                <div className='row mt-5'>
                     <div className='col-lg-12'>
                         <form id='contactForm' name='sentMessage' novalidate="">
                             <div className='row'>
                                 <div className='col-md-6'>
                                     <div className='form-group'>
-                                        <input id='name' className='form-control' placeholder='Your Name *' required=""
-                                        data-validation-required-message="Please enter your name."></input>
+                                        <input id='name' className='form-control' placeholder='Your Name *' type="text" required=""
+                                        data-validation-required-message="Please enter your name." aria-invalid="false"></input>
+                                        <p className='help-block text-danger'></p>
                                     </div>
+
+                                    <div className='form-group'>
+                                        <input id='email' className='form-control' placeholder='Your Email *' type="email" required=""
+                                        data-validation-required-message="Please enter your email address." aria-invalid="false"></input>
+                                        <p className='help-block text-danger'></p>
+                                    </div>
+
+                                    <div className='form-group'>
+                                        <input id='phone' className='form-control' placeholder='Your Phone' type="tel" required=""
+                                        aria-invalid="false"></input>
+                                        <p className='help-block text-danger'></p>
+                                    </div>
+                                </div>
+
+                                <div className='col-md-6'>
+                                    <div className='form-group'>
+                                        <textarea id="message" className='form-control' placeholder='Your Message *'
+                                        required="" data-validation-required-message="Please enter a message." aria-invalid="false" style={{height: "275px"}}></textarea>
+                                        <p className='help-block text-danger'></p>
+                                    </div>
+                                </div>
+
+                                <div className='clearfix'></div>
+
+                                <div className='col-lg-12 text-center'>
+                                    <div id='success'></div>
+                                    <button className='btn btn-lg btn-primary' type='submit'> Send Message </button>
                                 </div>
                             </div>
                         </form>
                     </div>
-                </div> */}
+                </div>
             </div>
         </section>
     );
