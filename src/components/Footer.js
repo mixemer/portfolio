@@ -39,13 +39,16 @@ export default function Footer() {
                     <div className="col-md-4 m-auto">
                         <ul className="list-inline quicklinks">
                             <li>
-                                <a href={"#"+headerIds.about}>About</a>
-                            </li>
-
-                            <li>
                                 <a href={"#"+headerIds.skills}>Skills</a>
                             </li>
 
+                            <li>
+                                <a href={"#"+headerIds.projects}>Projects</a>
+                            </li>
+
+                            <li>
+                                <a href={"#"+headerIds.about}>About</a>
+                            </li>
                             <li>
                                 <a href='/resume.pdf' target="_blank">
                                 <i className="fa-solid fa-file-pdf px-1"></i>
