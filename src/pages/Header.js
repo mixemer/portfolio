@@ -45,9 +45,6 @@ function Header({ active, setActive }) {
                             <a className={`nav-link ${active === headerIds.projects ? "active" : ""}`} href={"#"+headerIds.projects} onClick={() => OnNavlinkClick(headerIds.projects)}>Projects</a>
                         </li>
                         <li className="nav-item">
-                            <a className={`nav-link ${active === headerIds.timeline ? "active" : ""}`} href={"#"+headerIds.timeline} onClick={() => OnNavlinkClick(headerIds.timeline)}>Timeline</a>
-                        </li>
-                        <li className="nav-item">
                             <a className={`nav-link ${active === headerIds.contact ? "active" : ""}`} href={"#"+headerIds.contact} onClick={() => OnNavlinkClick(headerIds.contact)}>Contact</a>
                         </li>
                         <li className="nav-item">

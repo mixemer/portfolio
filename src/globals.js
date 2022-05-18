@@ -2,7 +2,7 @@ export const headerIds = {
     about: "about",
     skills: "skills",
     projects: "projects",
-    timeline: "timeline",
+    // timeline: "timeline",
     contact: "contact"
 }
 
