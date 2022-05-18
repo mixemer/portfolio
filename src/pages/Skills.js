@@ -11,7 +11,7 @@ export default function Skills( {setActive} ) {
 
     useEffect(() => {
         if (isVisible) {
-            setActive("skills")
+            setActive(headerIds.skills)
         }
       }, [isVisible])
 

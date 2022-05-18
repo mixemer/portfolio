@@ -11,7 +11,7 @@ export default function About( {setActive} ) {
 
     useEffect(() => {
         if (isVisible) {
-            setActive("about")
+            setActive(headerIds.about)
         }
       }, [isVisible])
 

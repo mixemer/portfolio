@@ -11,7 +11,7 @@ export default function Projects({setActive}) {
 
     useEffect(() => {
         if (isVisible) {
-            setActive("projects")
+            setActive(headerIds.projects)
         }
       }, [isVisible])
 

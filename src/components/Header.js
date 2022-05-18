@@ -35,14 +35,15 @@ function Header({ active, setActive }) {
                 </button>
                 <div className="collapse navbar-collapse" id="navbarSupportedContent" style={{ flexGrow: 0 }}>
                     <ul className="navbar-nav m-auto">
-                        <li className="nav-item">
-                            <a className={`nav-link ${active === headerIds.about ? "active" : ""}`} onClick={() => OnNavlinkClick(headerIds.about)} href={"#"+headerIds.about}>About</a>
-                        </li>
+                        
                         <li className="nav-item">
                             <a className={`nav-link ${active === headerIds.skills ? "active" : ""}`} href={"#"+headerIds.skills} onClick={() => OnNavlinkClick(headerIds.skills)}>Skills</a>
                         </li>
                         <li className="nav-item">
                             <a className={`nav-link ${active === headerIds.projects ? "active" : ""}`} href={"#"+headerIds.projects} onClick={() => OnNavlinkClick(headerIds.projects)}>Projects</a>
+                        </li>
+                        <li className="nav-item">
+                            <a className={`nav-link ${active === headerIds.about ? "active" : ""}`} onClick={() => OnNavlinkClick(headerIds.about)} href={"#"+headerIds.about}>About</a>
                         </li>
                         <li className="nav-item">
                             <a className={`nav-link ${active === headerIds.contact ? "active" : ""}`} href={"#"+headerIds.contact} onClick={() => OnNavlinkClick(headerIds.contact)}>Contact</a>

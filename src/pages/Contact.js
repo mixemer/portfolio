@@ -14,7 +14,7 @@ export default function Contact({ setActive }) {
 
     useEffect(() => {
         if (isVisible) {
-            setActive("projects")
+            setActive(headerIds.contact)
         }
     }, [isVisible])
 
