@@ -1,6 +1,7 @@
 import React, {useRef, useEffect} from 'react'
 import useOnScreen from '../useOnScreen';
 import "./Home.css";
+import { headerIds } from "../globals";
 
 function Home({ setActive }) {
     const ref = useRef()
@@ -22,8 +23,11 @@ function Home({ setActive }) {
 
                 <br></br>
 
-                <button type="button" className="p-3 btn btn-light btn-lg">Enter Portfolio </button>
-
+                <a className="p-3 m-2 btn btn-light btn-lg shadow-lg border" href={"#"+headerIds.about} role="button">
+                    <i class="fa-solid fa-chevron-down p-2"></i>
+                    Enter Portfolio
+                    <i class="fa-solid fa-chevron-down p-2"></i>
+                 </a>
                 </div>
             </div>
         </div>
