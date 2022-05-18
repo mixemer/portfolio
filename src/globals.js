@@ -12,3 +12,10 @@ export const skills = {
         description: ""
     }
 }
+
+export const socialMediaLinks = {
+    github: "https://github.com/mixemer",
+    facebook: "",
+    linkedin: "https://www.linkedin.com/in/mehmetshin",
+    twitter: "https://twitter.com/mixemer"
+}

@@ -6,7 +6,7 @@ import About from "./pages/About";
 import Skills from './pages/Skills';
 import Projects from "./pages/Projects";
 import Contact from './pages/Contact';
-
+import Footer from './components/Footer';
 
 import PortfolioModal from './components/PortfolioModal';
 
@@ -22,7 +22,7 @@ function App() {
       <Skills setActive={setActive}/>
       <Projects setActive={setActive}/>
       <Contact setActive={setActive}/>
-
+      <Footer />
       {/* create this for each project? use a map */}
       <PortfolioModal />
     </div>

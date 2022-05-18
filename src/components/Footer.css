@@ -1,0 +1,25 @@
+.footer {
+    padding-bottom: 2rem;
+    padding-top: 4rem;
+}
+
+.quicklinks {
+    text-transform: none;
+}
+
+.list-inline > li {
+    display: inline-block;
+    padding: 0 5px;
+    font-weight: bold;
+}
+
+.list-inline > li:hover {
+    display: inline-block;
+    padding: 0 5px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.copyright{
+    line-height: 50px;
+}
