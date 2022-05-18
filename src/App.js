@@ -18,9 +18,9 @@ function App() {
       <Header active={active} setActive={setActive} />
 
       <Home setActive={setActive}/>
-      <About setActive={setActive} />
       <Skills setActive={setActive}/>
       <Projects setActive={setActive}/>
+      <About setActive={setActive} />
       <Contact setActive={setActive}/>
       <Footer />
       {/* create this for each project? use a map */}
