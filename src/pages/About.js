@@ -16,12 +16,12 @@ export default function About( {setActive} ) {
       }, [isVisible])
 
     return (
-        <section className="content-section about" id={headerIds.about}>
+        <section className="content-section about" id={headerIds.about} ref={ref}>
             <div className="container">
                 <div className="card mb-3 bg-transparent">
                     <div className="row g-0">
                         <div className="col-md-4">
-                            <img src="/profile.jpg" className="img ms-4 mt-3" style={{ maxWidth: "80%" }} alt="..."></img>
+                            <img src="/profile.jpg" className="img ms-4 mt-3 mb-3" style={{ maxWidth: "80%" }} alt="..."></img>
                         </div>
                         <div className="col-md-8">
                             <div className="card-body bg-transparent">
@@ -42,7 +42,7 @@ export default function About( {setActive} ) {
                                 </a>
                             </div>
                         </div>
-                        <div className="card-footer bg-transparent" ref={ref}>
+                        {/* <div className="card-footer bg-transparent" ref={ref}>
                             <div className="col-lg-10 mx-auto text-center">
                                 <h4> Learn more about my: </h4>
                                 <a className="p-3 m-2 btn btn-dark btn-lg shadow-lg border" href={"#"+headerIds.skills} role="button">
@@ -56,7 +56,7 @@ export default function About( {setActive} ) {
                                     <b>Resume</b>
                                 </a>
                             </div>
-                        </div>
+                        </div> */}
 
                     </div>
                 </div>
