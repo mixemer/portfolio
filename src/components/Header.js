@@ -48,7 +48,12 @@ function Header({ active, setActive }) {
                             <a className={`nav-link ${active === headerIds.contact ? "active" : ""}`} href={"#"+headerIds.contact} onClick={() => OnNavlinkClick(headerIds.contact)}>Contact</a>
                         </li>
                         <li className="nav-item">
-                            <a className="  nav-link">Resume</a>
+                            <a className="nav-link" href='/resume.pdf' target="_blank">
+                                <b>
+                                    <i className="fa-solid fa-file-pdf px-2"></i>
+                                    Resume
+                                </b>
+                            </a>        
                         </li>
                     </ul>
                 </div>
