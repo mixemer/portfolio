@@ -2,7 +2,7 @@ import React, {useRef, useEffect} from 'react'
 import useOnScreen from '../useOnScreen';
 
 import "./About.css";
-import { headerIds } from "../globals";
+import { headerIds, socialMediaLinks } from "../globals";
 
 // TODO: add details about yourself
 export default function About( {setActive} ) {
@@ -29,19 +29,15 @@ export default function About( {setActive} ) {
                                 <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                             </div>
                             <div className="card-footer">
-                                <a className="btn btn-primary" style={{backgroundColor: "#333333"}} href="#!" role="button">
+                                <a className="btn btn-primary" style={{backgroundColor: "#333333"}} href={socialMediaLinks.github} role="button" target="_blank">
                                     <i className="fab fa-github"></i>
                                 </a>
 
-                                <a className="btn btn-primary" style={{backgroundColor: "#0082ca", margin: "10px"}} href="#!" role="button">
+                                <a className="btn btn-primary" style={{backgroundColor: "#0082ca", margin: "10px"}} href={socialMediaLinks.github} role="button" target="_blank">
                                     <i className="fab fa-linkedin-in"></i>
                                 </a>
-
-                                {/* <a className="btn btn-primary" style={{backgroundColor: "#3b5998"}} href="#!" role="button">
-                                    <i className="fab fa-facebook-f"></i>
-                                </a> */}
                                 
-                                <a className="btn btn-primary" style={{backgroundColor: "#55acee"}} href="#!" role="button">
+                                <a className="btn btn-primary" style={{backgroundColor: "#55acee"}} href={socialMediaLinks.github} role="button" target="_blank">
                                     <i className="fab fa-twitter"></i>
                                 </a>
                             </div>
