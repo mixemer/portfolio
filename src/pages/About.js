@@ -46,16 +46,14 @@ export default function About( {setActive} ) {
                             <div className="col-lg-10 mx-auto text-center">
                                 <h4> Learn more about my: </h4>
                                 <a className="p-3 m-2 btn btn-dark btn-lg shadow-lg border" href={"#"+headerIds.skills} role="button">
-                                    Skills
+                                    <b>Skills</b>
                                 </a>
                                 <a className="p-3 m-2 btn btn-dark btn-lg shadow-lg border" href={"#"+headerIds.projects} role="button">
-                                    Projects
+                                    <b>Projects</b>
                                 </a>
-                                <a className="p-3 m-2 btn btn-dark btn-lg shadow-lg border" href={"#"+headerIds.timeline} role="button">
-                                    Timeline
-                                </a>
-                                <a className="p-3 m-2 btn btn-secondary btn-lg shadow-lg border" href="#!" role="button">
-                                    Resume
+                                <a className="p-3 m-2 btn btn-secondary btn-lg shadow-lg border" href="/resume.pdf" target="_blank" role="button">
+                                <i className="fa-solid fa-file-pdf px-1"></i>
+                                    <b>Resume</b>
                                 </a>
                             </div>
                         </div>
