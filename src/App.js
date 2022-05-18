@@ -14,12 +14,13 @@ function App() {
   return (
     <div className="App">
       <Header active={active} setActive={setActive} />
+
       <Home setActive={setActive}/>
       <About setActive={setActive} />
       <Skills setActive={setActive}/>
       <Projects setActive={setActive}/>
 
-
+      {/* create this for each project? use a map */}
       <PortfolioModal />
     </div>
   );
