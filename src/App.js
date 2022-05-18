@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from 'react'
 
-import Header from "./pages/Header";
+import Header from "./components/Header";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Skills from './pages/Skills';
