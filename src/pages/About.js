@@ -21,14 +21,14 @@ export default function About( {setActive} ) {
                 <div className="card mb-3 bg-transparent">
                     <div className="row g-0">
                         <div className="col-md-4">
-                            <img src="/profile.jpg" className="img-fluid rounded-start" alt="..."></img>
+                            <img src="/profile.jpg" className="img ms-4 mt-3" style={{ maxWidth: "80%" }} alt="..."></img>
                         </div>
                         <div className="col-md-8">
-                            <div className="card-body">
+                            <div className="card-body bg-transparent">
                                 <h4 className="card-title">Mehmet Sahin</h4>
                                 <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                             </div>
-                            <div className="card-footer">
+                            <div className="card-footer bg-transparent">
                                 <a className="btn btn-primary" style={{backgroundColor: "#333333"}} href={socialMediaLinks.github} role="button" target="_blank">
                                     <i className="fab fa-github"></i>
                                 </a>
@@ -42,7 +42,7 @@ export default function About( {setActive} ) {
                                 </a>
                             </div>
                         </div>
-                        <div className="card-footer" ref={ref}>
+                        <div className="card-footer bg-transparent" ref={ref}>
                             <div className="col-lg-10 mx-auto text-center">
                                 <h4> Learn more about my: </h4>
                                 <a className="p-3 m-2 btn btn-dark btn-lg shadow-lg border" href={"#"+headerIds.skills} role="button">
