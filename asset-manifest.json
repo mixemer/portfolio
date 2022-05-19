@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.bb7cc5df.css",
-    "main.js": "/portfolio/static/js/main.e027cdeb.js",
+    "main.js": "/portfolio/static/js/main.1bf582c1.js",
     "static/js/787.5809834d.chunk.js": "/portfolio/static/js/787.5809834d.chunk.js",
     "static/media/background.jpg": "/portfolio/static/media/background.0f1f88564107b9560b37.jpg",
     "static/media/profile.JPG": "/portfolio/static/media/profile.924b3ec80529b0a141bf.JPG",
@@ -11,15 +11,16 @@
     "static/media/blueprint-icons-16.ttf?": "/portfolio/static/media/blueprint-icons-16.8dad11908ed3e5e9e47a.ttf",
     "static/media/blueprint-icons-20.woff?": "/portfolio/static/media/blueprint-icons-20.37c48d148164e6a1b9b1.woff",
     "static/media/blueprint-icons-16.woff?": "/portfolio/static/media/blueprint-icons-16.bdd01e08b240fc397e5a.woff",
+    "static/media/resume.pdf": "/portfolio/static/media/resume.b33d34d0e54281f0eb1a.pdf",
     "static/media/blueprint-icons-20.woff2?": "/portfolio/static/media/blueprint-icons-20.16fbb3eddfb5d29019ae.woff2",
     "static/media/blueprint-icons-16.woff2?": "/portfolio/static/media/blueprint-icons-16.d59af1d43e67354fabe4.woff2",
     "index.html": "/portfolio/index.html",
     "main.bb7cc5df.css.map": "/portfolio/static/css/main.bb7cc5df.css.map",
-    "main.e027cdeb.js.map": "/portfolio/static/js/main.e027cdeb.js.map",
+    "main.1bf582c1.js.map": "/portfolio/static/js/main.1bf582c1.js.map",
     "787.5809834d.chunk.js.map": "/portfolio/static/js/787.5809834d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bb7cc5df.css",
-    "static/js/main.e027cdeb.js"
+    "static/js/main.1bf582c1.js"
   ]
 }
