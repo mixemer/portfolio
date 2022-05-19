@@ -50,7 +50,7 @@ export default function Footer() {
                                 <a href={"#"+headerIds.about}>About</a>
                             </li>
                             <li>
-                                <a href='/resume.pdf' target="_blank">
+                                <a href={require('../img/resume.pdf')} target="_blank">
                                 <i className="fa-solid fa-file-pdf px-1"></i>
                                     Resume
                                 </a>
