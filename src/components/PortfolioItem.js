@@ -1,17 +1,18 @@
 import "./PortfolioItem.css";
 
-export default function PortfolioItem( {to} ) {
+export default function PortfolioItem( {item} ) {
+    //exampleModal shouldbe item.modal.
     return (
-        <a className="portfolio-item" data-bs-toggle="modal" href={"#"+to} role="button" data-bs-config='{"delay":0, "title":123}'>
+        <a className="portfolio-item" data-bs-toggle="modal" href={"#exampleModal"} role="button" data-bs-config='{"delay":0, "title":123}'>
             <span className="caption">
                 <span className='caption-content text-start'>
-                    <h5 className='fw-bold'> Neural Model Library </h5>
+                    <h5 className='fw-bold'> {item.title} </h5>
                     <p className='mb-0 fw-bold'>
-                    Simple creation of feed forward and recurrent neural models in TensorFlow.
+                        {item.detail}
                     </p>
                 </span>
             </span>
-            <img className='img-fluid portfolio-img' src={require('../img/background.jpg')} alt=''/>
+            <img className='img-fluid portfolio-img' src={require('../img/project_imgs/'+item.img)} alt=''/>
         </a>
     );
 }

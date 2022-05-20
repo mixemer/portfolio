@@ -35,8 +35,9 @@
 }
 
 .portfolio-img {
-    height: 209px;
+    height: 309px;
     width: 100%;
+    object-fit: cover;
 }
 
 .portfolio-item:hover {
@@ -44,4 +45,7 @@
 }
 .portfolio-item:hover .caption {
     background-color: rgba(41, 136, 188, 0.5);
+}
+.portfolio-item .caption {
+    background: linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.8) 99%);;
 }
