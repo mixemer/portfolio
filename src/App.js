@@ -10,6 +10,7 @@ import Projects from "./pages/Projects";
 import Contact from './pages/Contact';
 import Footer from './components/Footer';
 
+import BackToTopBtn from './components/BackToTopBtn.js';
 import PortfolioModal from './components/PortfolioModal';
 
 function App() {
@@ -33,6 +34,8 @@ function App() {
 
       {/* create this for each project? use a map */}
       {modals}
+
+      <BackToTopBtn />
     </div>
   );
 }
