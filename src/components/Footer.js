@@ -55,6 +55,10 @@ export default function Footer() {
                                     Resume
                                 </a>
                             </li>
+
+                            <li>
+                                <a style={{ fontWeight: "normal" }} href="https://sites.google.com/view/mehmetsahin/" target="_blank">Old Page</a>
+                            </li>
                         </ul>
                     </div>
                 </div>
