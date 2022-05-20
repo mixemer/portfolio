@@ -22,6 +22,7 @@ export const socialMediaLinks = {
     twitter: "https://twitter.com/mixemer"
 }
 
+// gh_card has to be generated on https://gh-card.dev/
 export const projects = {
     games: [
         // Also add the ungoing sea game
@@ -33,7 +34,8 @@ export const projects = {
             detail: `Worked as a Unity Developer to create and publish the game for a Turkish design studio, OB Games.`,
             link: "https://play.google.com/store/apps/details?id=com.duslerevigamestudio.puncher&hl=en_US&gl=US",
             modal: "puncher",
-            img: "puncher.png"
+            img: "puncher.png",
+            gh_card: ""
         },
         {
             title: "Animal Match",
@@ -43,7 +45,8 @@ export const projects = {
             detail: "Collabrated with a designer to build a hyper casual game for Voodoo game compatition",
             link: "https://play.google.com/store/apps/details?id=com.heyyouherodesignstudio.animalmatch&hl=en_US&gl=US",
             modal: "animal_match",
-            img: "animal_match.png"
+            img: "animal_match.png",
+            gh_card: ""
         },
         {
             title: "Aquatic Ruination",
@@ -51,7 +54,8 @@ export const projects = {
             detail: "Collabrated with a team of student to create a education game for class porject",
             link: "https://github.com/mixemer/projectx",
             modal: "aquatic_ruination",
-            img: "aquatic_ruination.png"
+            img: "aquatic_ruination.png",
+            gh_card: "projectx"
         },
         {
             title: "Set Game",
@@ -59,7 +63,8 @@ export const projects = {
             detail: "A project for cs193p - Stanford University Course ",
             link: "https://github.com/mixemer/set-game",
             modal: "set_game",
-            img: "not_found.png"
+            img: "not_found.png",
+            gh_card: "set-game"
         },
     ],
     mobile_apps: [
@@ -71,7 +76,8 @@ export const projects = {
             detail: "Collabrated with a designer to build a hybrit app for both app store and google play store using Flutter",
             link: "https://github.com/mixemer/challengemeup",
             modal: "challenge_me_up",
-            img: "challenge_me_up.PNG"
+            img: "challenge_me_up.PNG",
+            gh_card: ""
         },
         {
             title: "AR Book World",
@@ -81,7 +87,8 @@ export const projects = {
             detail: "Selected as an Education Track winner out of 104 teams (340+ participants) at the HackNYU 2019",
             link: "https://devpost.com/software/ar-book-world",
             modal: "ar_book",
-            img: "ar_book.jpg"
+            img: "ar_book.jpg",
+            gh_card: "AR-Book-World"
         },
         {
             title: "Emoji Art App",
@@ -89,7 +96,8 @@ export const projects = {
             detail: "Class project for Stanford cs193p: an app for creating art using emojis and background images",
             link: "https://github.com/mixemer/emoji-art",
             modal: "emoji_art",
-            img: "not_found.png"
+            img: "not_found.png",
+            gh_card: "emoji-art"
         },
     ],
     web_apps: [
@@ -99,7 +107,8 @@ export const projects = {
             detail: "",
             link: "https://mixemer.github.io/portfolio/",
             modal: "portfolio",
-            img: "not_found.png"
+            img: "not_found.png",
+            gh_card: "portfolio"
         },
         {
             title: "Email Spam Database",
@@ -107,7 +116,8 @@ export const projects = {
             detail: "School project",
             link: "https://github.com/mixemer/email_spam_database",
             modal: "email_spam_database",
-            img: "not_found.png"
+            img: "not_found.png",
+            gh_card: "email_spam_database"
         },
         {
             title: "To do",
@@ -115,7 +125,8 @@ export const projects = {
             detail: "School project",
             link: "https://github.com/mixemer/cisc3650-todoapp",
             modal: "to_do",
-            img: "not_found.png"
+            img: "not_found.png",
+            gh_card: "cisc3650-todoapp"
         },
     ],
     others: [
@@ -125,7 +136,8 @@ export const projects = {
             detail: "School project at BMCC, Java",
             link: "https://github.com/mixemer/BeeSweeper-new",
             modal: "bee_sweeper",
-            img: "bee_sweeper.jpg"
+            img: "bee_sweeper.jpg",
+            gh_card: "BeeSweeper-new"
         },
         {
             title: "Explosion of Particles",
@@ -133,7 +145,8 @@ export const projects = {
             detail: "Created a small GUI (SDL) program in C++",
             link: "https://github.com/mixemer/Explosion-of-Particles",
             modal: "explosion_of_particles",
-            img: "particle.png"
+            img: "particle.png",
+            gh_card: "Explosion-of-Particles"
         },
         {
             title: "Predict scale of satellite images using Neural Networks",
@@ -141,7 +154,8 @@ export const projects = {
             detail: "Predict scale of satellite images using Neural Networks",
             link: "https://github.com/mixemer/Summer2018Starter/tree/master/Project",
             modal: "predict_scale_of_satellite",
-            img: "satellite.png"
+            img: "satellite.png",
+            gh_card: "Summer2018Starter"
         },
     ],
     honors_research: [
@@ -151,7 +165,8 @@ export const projects = {
             detail: "Assistive Robot for Deaf-Hearing Communication using Microsoft Kinect and NAO Robot",
             link: "https://docs.google.com/document/d/1smRE0nahRs23ShaHE_IpykG3tU1S5YVLQFhjCVI1KOg/edit?usp=sharing",
             modal: "deaf_hearing",
-            img: "assistive_robot.png"
+            img: "assistive_robot.png",
+            gh_card: ""
         },
         {
             title: "Controlling a humanoid robot using non-verbal communication",
@@ -159,7 +174,8 @@ export const projects = {
             detail: "Controlling a humanoid robot using non-verbal communication",
             link: "https://drive.google.com/file/d/1R2WhlzfBzvARo67VwJegvixXTrSpPY27/view",
             modal: "deaf_hearing",
-            img: "controlling_nao.png"
+            img: "controlling_nao.png",
+            gh_card: ""
         },
         {
             title: "LargeInt",
@@ -167,7 +183,8 @@ export const projects = {
             detail: "An honor project for the CSC331 - data structure class at BMCC",
             link: "https://github.com/mixemer/LargeInt",
             modal: "large_int",
-            img: "large_int.jpeg"
+            img: "large_int.jpeg",
+            gh_card: "LargeInt"
         },
     ]
 };

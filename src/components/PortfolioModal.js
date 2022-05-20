@@ -1,13 +1,15 @@
-export default function PortfolioModal() {
+import { projects } from "../globals.js"
 
+export default function PortfolioModal({item}) {
+    const dataLink = `https://gh-card.dev/repos/mixemer/${item.gh_card}.svg?link_target=_blank`;
     return (
         <>
-        <div className="modal fade text-dark" id="exampleModal" tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div className="modal fade text-dark" id={item.modal} tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div className="modal-dialog modal-lg">
                 <div className="modal-content">
                     <div className="modal-header">
                         <h5 className="modal-title" id="exampleModalLabel">
-                            Neural Model Library
+                            {item.title}
                         </h5>
                         <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
@@ -19,7 +21,7 @@ export default function PortfolioModal() {
                     </div>
 
                     {/* https://github.com/nwtgck/gh-card https://gh-card.dev/ */}
-                    <object className="mx-auto mb-3" type="image/svg+xml" data="https://gh-card.dev/repos/mixemer/BMCC-Honors-Projects.svg?link_target=_blank"></object>
+                    <object className="mx-auto mb-3" type="image/svg+xml" data={dataLink}></object>
 
                     <div className="modal-footer">
                         <button type="button" className="btn btn-secondary" data-bs-dismiss="modal">Close</button>
