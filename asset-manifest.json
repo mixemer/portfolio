@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.9a76c413.css",
-    "main.js": "/portfolio/static/js/main.0c6b6cb6.js",
+    "main.css": "/portfolio/static/css/main.b621a792.css",
+    "main.js": "/portfolio/static/js/main.a1fe3f41.js",
     "static/js/787.5809834d.chunk.js": "/portfolio/static/js/787.5809834d.chunk.js",
     "static/media/particle.png": "/portfolio/static/media/particle.85101d54df5804dfda49.png",
     "static/media/satellite.png": "/portfolio/static/media/satellite.1b3b1266399055c6eea8.png",
@@ -27,12 +27,12 @@
     "static/media/blueprint-icons-16.woff2?": "/portfolio/static/media/blueprint-icons-16.d59af1d43e67354fabe4.woff2",
     "static/media/ar_book.jpg": "/portfolio/static/media/ar_book.d46c2f0d556b9091086a.jpg",
     "index.html": "/portfolio/index.html",
-    "main.9a76c413.css.map": "/portfolio/static/css/main.9a76c413.css.map",
-    "main.0c6b6cb6.js.map": "/portfolio/static/js/main.0c6b6cb6.js.map",
+    "main.b621a792.css.map": "/portfolio/static/css/main.b621a792.css.map",
+    "main.a1fe3f41.js.map": "/portfolio/static/js/main.a1fe3f41.js.map",
     "787.5809834d.chunk.js.map": "/portfolio/static/js/787.5809834d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9a76c413.css",
-    "static/js/main.0c6b6cb6.js"
+    "static/css/main.b621a792.css",
+    "static/js/main.a1fe3f41.js"
   ]
 }
