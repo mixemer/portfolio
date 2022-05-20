@@ -1,26 +1,38 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.bb7cc5df.css",
-    "main.js": "/portfolio/static/js/main.1bf582c1.js",
+    "main.css": "/portfolio/static/css/main.9a76c413.css",
+    "main.js": "/portfolio/static/js/main.0c6b6cb6.js",
     "static/js/787.5809834d.chunk.js": "/portfolio/static/js/787.5809834d.chunk.js",
+    "static/media/particle.png": "/portfolio/static/media/particle.85101d54df5804dfda49.png",
+    "static/media/satellite.png": "/portfolio/static/media/satellite.1b3b1266399055c6eea8.png",
+    "static/media/assistive_robot.png": "/portfolio/static/media/assistive_robot.40938734fde39548ee6e.png",
+    "static/media/controlling_nao.png": "/portfolio/static/media/controlling_nao.ee83e547e1d0c34a760f.png",
     "static/media/background.jpg": "/portfolio/static/media/background.0f1f88564107b9560b37.jpg",
+    "static/media/challenge_me_up.PNG": "/portfolio/static/media/challenge_me_up.476e93fe93075570ca21.PNG",
+    "static/media/animal_match.png": "/portfolio/static/media/animal_match.1b3ed2ed25c4a091d9af.png",
+    "static/media/not_found.png": "/portfolio/static/media/not_found.624f35fa494ab7cc57b8.png",
     "static/media/profile.JPG": "/portfolio/static/media/profile.924b3ec80529b0a141bf.JPG",
     "static/media/blueprint-icons-20.eot?": "/portfolio/static/media/blueprint-icons-20.7c675118c62235e8ba85.eot",
     "static/media/blueprint-icons-20.ttf?": "/portfolio/static/media/blueprint-icons-20.58cecdd9d530e9748708.ttf",
     "static/media/blueprint-icons-16.eot?": "/portfolio/static/media/blueprint-icons-16.eeaaf48f3aa9749d8399.eot",
     "static/media/blueprint-icons-16.ttf?": "/portfolio/static/media/blueprint-icons-16.8dad11908ed3e5e9e47a.ttf",
+    "static/media/puncher.png": "/portfolio/static/media/puncher.aa72e8a2a4f3cf86b6bb.png",
     "static/media/blueprint-icons-20.woff?": "/portfolio/static/media/blueprint-icons-20.37c48d148164e6a1b9b1.woff",
     "static/media/blueprint-icons-16.woff?": "/portfolio/static/media/blueprint-icons-16.bdd01e08b240fc397e5a.woff",
     "static/media/resume.pdf": "/portfolio/static/media/resume.b33d34d0e54281f0eb1a.pdf",
+    "static/media/large_int.jpeg": "/portfolio/static/media/large_int.440c742b565c253ab87a.jpeg",
+    "static/media/bee_sweeper.jpg": "/portfolio/static/media/bee_sweeper.5c875311f6adce88655b.jpg",
+    "static/media/aquatic_ruination.png": "/portfolio/static/media/aquatic_ruination.3b09f1c6146d9c70830e.png",
     "static/media/blueprint-icons-20.woff2?": "/portfolio/static/media/blueprint-icons-20.16fbb3eddfb5d29019ae.woff2",
     "static/media/blueprint-icons-16.woff2?": "/portfolio/static/media/blueprint-icons-16.d59af1d43e67354fabe4.woff2",
+    "static/media/ar_book.jpg": "/portfolio/static/media/ar_book.d46c2f0d556b9091086a.jpg",
     "index.html": "/portfolio/index.html",
-    "main.bb7cc5df.css.map": "/portfolio/static/css/main.bb7cc5df.css.map",
-    "main.1bf582c1.js.map": "/portfolio/static/js/main.1bf582c1.js.map",
+    "main.9a76c413.css.map": "/portfolio/static/css/main.9a76c413.css.map",
+    "main.0c6b6cb6.js.map": "/portfolio/static/js/main.0c6b6cb6.js.map",
     "787.5809834d.chunk.js.map": "/portfolio/static/js/787.5809834d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bb7cc5df.css",
-    "static/js/main.1bf582c1.js"
+    "static/css/main.9a76c413.css",
+    "static/js/main.0c6b6cb6.js"
   ]
 }
