@@ -1,7 +1,7 @@
 import React, {useRef, useEffect} from 'react';
 import useOnScreen from '../useOnScreen';
 import { headerIds, projects } from "../globals";
-import ProjectGroup from './ProjectGroup';
+import ProjectGroup from '../components/ProjectGroup';
 import "./Projects.css";
 
 export default function Projects({setActive}) {

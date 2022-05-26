@@ -1,4 +1,4 @@
-import PortfolioItem from "../components/PortfolioItem";
+import PortfolioItem from "./PortfolioItem";
 import { projects } from "../globals";
 
 /**
