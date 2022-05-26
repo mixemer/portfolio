@@ -22,7 +22,7 @@ export default function BackToTopBtn() {
     return (
         <button
                 type="button"
-                className="btn btn-floating btn-lg"
+                className="btn btn-secondary btn-floating btn-lg"
                 id="btn-back-to-top"
                 onClick={() => {  
                     document.body.scrollTop = 0;
