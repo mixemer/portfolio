@@ -27,7 +27,7 @@ export default function Projects({setActive}) {
                     <p>Here you can see some of the projects I've done on my own time.</p>
                 </div>
                  {Object.keys(projects).map((key) =>
-                    <ProjectGroup projectGroupName={key}/> 
+                    <ProjectGroup key={key} projectGroupName={key}/> 
                  )}
                 <div>
                 </div>
