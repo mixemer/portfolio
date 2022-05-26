@@ -6,15 +6,6 @@ export const headerIds = {
     contact: "contact"
 }
 
-// c++, c#, unity, swift, swiftui, UIkit, firebase, flutter, dart
-// wolfram, js/html/css / react / svelte, SQL
-export const skills = {
-    cplusplus: {
-        name: "c++",
-        description: ""
-    }
-}
-
 export const socialMediaLinks = {
     github: "https://github.com/mixemer",
     facebook: "",
@@ -188,3 +179,33 @@ export const projects = {
         },
     ]
 };
+
+export const skills = [
+    {
+        name: "Unity, C#",
+        description: "",
+        iconClassName: "fa-brands fa-unity"
+    },
+    {
+        name: "IOS, Swift",
+        description: "",
+        iconClassName: "fa-brands fa-apple"
+    },
+    ,
+    {
+        name: "C++",
+        description: "",
+        iconClassName: "fa-solid fa-f"
+    },
+    {
+        name: "Flutter, Dart",
+        description: "",
+        iconClassName: "fa-solid fa-code"
+    }
+    ,
+    {
+        name: "JavaScript, HTML, CSS",
+        description: "",
+        iconClassName: "fa-solid fa-code"
+    }
+]
