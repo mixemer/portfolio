@@ -111,7 +111,7 @@ export default function Contact({ setActive }) {
                         <h2 className='section-heading'> Contact Me </h2>
                         <h5 className='contact-info'>
                             Email: 
-                            <a className='lead' href='mailto:mehmetmshin@gmail.com'> mehmetmshin@gmail.com </a>
+                            <a className='lead fs-2' href='mailto:mehmetmshin@gmail.com'> mehmetmshin@gmail.com </a>
                         </h5>
                         <br></br>
                         <h5 className='contact-info text-light opacity-50'>
