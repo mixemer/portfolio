@@ -9,7 +9,7 @@ export default function ProjectGroup({ projectGroupName }) {
     // make sure there is an array for projectGroupName in projects
     const projectGroup = projects[projectGroupName];
     const items = projectGroup.map((item) =>
-        <div className="col-lg-4 col-md-6 p-0">
+        <div key={item.title} className="col-lg-4 col-md-6 p-0">
             <PortfolioItem item={item} />
         </div>
     );
