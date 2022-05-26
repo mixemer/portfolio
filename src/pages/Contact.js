@@ -35,16 +35,16 @@ export default function Contact({ setActive }) {
         let _isEmailValid = true;
         let _isMessageValid = true;
 
-        if (form.message.length < 1) {
+        if (form.message.trim().length < 1) {
             _isNameValid = false;
         }
 
-        if (form.name.length < 2) {
+        if (form.name.trim().length < 2) {
             _isMessageValid = false;
         }
         
         // no need to validate the email because bootsrap handles that part
-        if (form.email.length < 1) {
+        if (form.email.trim().length < 1) {
             _isEmailValid = false
         }
 
@@ -130,7 +130,7 @@ export default function Contact({ setActive }) {
                                         <input id='name' name='name' className='form-control' placeholder='Your Name *' type="text" required=""
                                         aria-invalid="false" value={form.name} onChange={e => setForm({
                                             ...form,
-                                            name: e.target.value.trim()
+                                            name: e.target.value
                                         })} onClick={() => onNameInputClicked()}></input>
                                         {!form.isNameValid && 
                                             <p className='help-block text-danger mt-1'> Please enter your name. </p>
@@ -154,7 +154,7 @@ export default function Contact({ setActive }) {
                                         <input id='phone' name='phone' className='form-control' placeholder='Your Phone' type="tel" required=""
                                         aria-invalid="false" value={form.phone} onChange={e => setForm({
                                             ...form,
-                                            phone: e.target.value.trim()
+                                            phone: e.target.value
                                         })}></input>
                                         {!form.isPhoneValid && 
                                             <p className='help-block text-danger mt-1'> Please enter your phone. </p>
@@ -169,7 +169,7 @@ export default function Contact({ setActive }) {
                                         required="" aria-invalid="false" style={{height: "275px"}} 
                                         value={form.message} onChange={e => setForm({
                                             ...form,
-                                            message: e.target.value.trim()
+                                            message: e.target.value
                                         })} onClick={() => onMessageInputClicked()}></textarea>
                                         {!form.isMessageValid && 
                                             <p className='help-block text-danger mt-1'> Please enter a meesage. </p>
