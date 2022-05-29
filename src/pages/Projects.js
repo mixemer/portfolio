@@ -1,7 +1,7 @@
 import React, {useRef, useEffect} from 'react';
 import useOnScreen from '../useOnScreen';
 import { headerIds, projects } from "../globals";
-import ProjectGroup from '../components/ProjectGroup';
+import PortfolioItem from '../components/PortfolioItem';
 import "./Projects.css";
 
 
@@ -28,12 +28,67 @@ export default function Projects({setActive}) {
                 <div>
                     <p>Here you can see some of the projects I've done on my own time.</p>
                 </div>
-                 {Object.keys(projects).map((key) =>
-                    <ProjectGroup key={key} projectGroupName={key}/> 
-                 )}
-                <div>
-                </div>
+                 <hr></hr>
+
+                 <Titles />
+                 <br></br>
+                 <ProjectsBody />
             </div>
         </section>
     );
 }
+
+function Titles() {
+    return (
+        <ul className="nav nav-pills justify-content-center mt-4" id="pills-tab" role="tablist">
+            <li className="nav-item" role="presentation">
+                <button className="nav-link active" id="pills-all-tab" data-bs-toggle="pill" data-bs-target="#pills-all" type="button" role="tab" aria-controls="pills-all" aria-selected="true">All</button>
+            </li>
+            {
+                Object.keys(projects).map((key) => 
+                <li key={key} className="nav-item" role="presentation">
+                    <button className="nav-link" id={"pills-"+key+"-tab"} data-bs-toggle="pill" data-bs-target={"#pills-"+key} type="button" role="tab" aria-controls={"pills-"+key} aria-selected="false">{projects[key].name}</button>
+                </li>
+                )
+            }
+        </ul>   
+    )
+}
+
+function ProjectsBody() {
+    return (
+        <>        
+        <div className="tab-content" id="pills-tabContent">
+            <div className="tab-pane fade show active" id="pills-all" role="tabpanel" aria-labelledby="pills-all-tab" tabIndex="0">
+                <div className='row'>
+                {Object.keys(projects).map((key) =>
+                    // <ProjectGroup key={key} projectGroupName={key}/> 
+                    projects[key].items.map((item) =>
+                    <div key={item.title} className="col-lg-4 col-md-6 p-0">
+                        <PortfolioItem item={item} />
+                    </div>
+                )   
+                 )}
+                </div>
+            </div>
+            {Object.keys(projects).map((key) => 
+                <div key={key.title} className="tab-pane fade" id={"pills-"+key} role="tabpanel" aria-labelledby={"pills-"+key+"-tab"} tabIndex="0">
+                    {items(key)}
+                </div>
+            )}
+        </div>
+        </>
+    );
+}
+
+function items(key) {
+    return (
+        <div className='row'>
+        {projects[key].items.map((item) =>
+        <div key={item.title} className="col-lg-4 col-md-6 p-0">
+            <PortfolioItem item={item} />
+        </div>)}
+        </div>
+    );
+}
+
