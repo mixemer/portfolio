@@ -208,7 +208,7 @@ export const skills = [
         description: `
         In 2019, I began developing iOS apps for the first time.
         I studied Swift, UIKit, Cocoapods, Core Data, Realm, CoreML, and ARKit via an Udemy course called "iOS & Swift - The Complete iOS App Development Bootcamp."
-        I've made over ten apps, and one of them (ARBook World), which I made with ARKit, was selected as a winner at NYUHack in 2019.
+        I've made over ten apps, and one of them (ARBook World), which with ARKit, was selected as a winner at HackNYU in 2019.
         I recently completed the Stanford CS193p course and began learning SwiftUI.`,
         iconClassName: "fa-brands fa-apple"
     },
