@@ -16,7 +16,7 @@ export default function Skills( {setActive} ) {
     }, [isVisible])
 
     const skillItems = skills.map((_skill) =>  
-        <SkillCard key={_skill.name.toString()} skill={_skill} icon={<i className="fa-brands fa-unity"></i>}/>);
+        <SkillCard key={_skill.name.toString()} skill={_skill}/>);
 
     return (
         <section className="content-section skills text-center text-white" id={headerIds.skills}>

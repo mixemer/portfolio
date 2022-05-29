@@ -4,6 +4,8 @@ import { headerIds, projects } from "../globals";
 import ProjectGroup from '../components/ProjectGroup';
 import "./Projects.css";
 
+
+// TODO: make this page as a Tab, each tab is different title
 export default function Projects({setActive}) {
     const ref = useRef()
     const isVisible = useOnScreen(ref)

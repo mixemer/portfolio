@@ -183,29 +183,41 @@ export const projects = {
 export const skills = [
     {
         name: "Unity, C#",
-        description: "",
+        description: 
+        `Over the past 2 years, I have had extensive experience with Unity. I created many games and I published 3 of them on Google Play Store and Apple App store.
+        While creating amazing game experiences in Unity, I also learned and used Dependency Injection, Animation, Randomization, Networking (Photon Pun), 3D Models, Mesh, Textures, Sprites and more`,
         iconClassName: "fa-brands fa-unity"
     },
     {
         name: "IOS, Swift",
-        description: "",
+        description: `
+        In 2019, I began developing IOS apps for the first time.
+        I studied Swift, UIKit, Cocoapods, Core Data, Realm, CoreML, and ARKit via an Udemy course called "iOS & Swift - The Complete iOS App Development Bootcamp."
+        I've made over ten apps, and one of them (ARBook World), which I made with ARKit, was selected as a winner at NYUHack in 2019.
+        I recently completed the Stanford CS193p course and began learning SwiftUI.`,
         iconClassName: "fa-brands fa-apple"
     },
-    ,
     {
         name: "C++",
-        description: "",
-        iconClassName: "fa-solid fa-f"
+        description: `
+        Since 2017, C++ has been my primary programming language.
+        I began learning C++ at my college, and due to my advanced knowledge of the language, I was appointed as a Supplemental Instruction Leader for Advance C++ classes at my college for two semesters.
+        In addition, I used C++ extensively in some of my research and honors projects, particularly in my honors project "Controlling a humanoid robot utilizing non-verbal communication."`,
+        iconClassName: "fa-solid fa-c"
+    },
+    {
+        name: "JavaScript, HTML, CSS",
+        description: `
+        In 2018, I began developing Web apps as a Software Engineer Intern in one of my school's programs called CUNYCodes.
+        Since then, I've used HTML /JavaScript /CSS to develop a number of school projects and in my portfolio.
+        I'm familiar with the following frameworks and libraries:
+        Svelte and MERN (MongoDB, Express, React, Nodejs) `,
+        iconClassName: "fa-solid fa-code"
     },
     {
         name: "Flutter, Dart",
-        description: "",
-        iconClassName: "fa-solid fa-code"
-    }
-    ,
-    {
-        name: "JavaScript, HTML, CSS",
-        description: "",
-        iconClassName: "fa-solid fa-code"
+        description: `
+        I started using Flutter for one of my productivty mobile app idea in 2020. I wanted to create the app and publish it for both IOS and Android. I was able to create and pubish the app called ChallengeMe`,
+        iconClassName: "fa-solid fa-f"
     }
 ]
