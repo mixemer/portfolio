@@ -1,3 +1,18 @@
 .projects {
     background-color: var(--backround);
 }
+
+.projects .nav-link {
+    /* margin: 0 2rem; */
+    color: white;
+    font-size: large;
+}
+
+/* .projects .nav-item .active {
+    background-color: var(--primary) !important;
+    color: var(--primary) !important;
+} */
+
+.nav-link:hover {
+    color: var(--primary)
+}
