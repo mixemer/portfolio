@@ -9,7 +9,7 @@ export default function PortfolioItem( {item} ) {
                     <span className='caption-content text-start'>
                         <h5 className="fw-bold"> {item.title} </h5>
                         <p className='mb-0 '>
-                            {item.detail}
+                            {item.caption}
                         </p>
                     </span>
                 </span>
