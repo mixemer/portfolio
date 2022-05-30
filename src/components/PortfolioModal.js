@@ -8,7 +8,7 @@ export default function PortfolioModal({item}) {
         <div className="modal fade text-dark" id={item.modal} tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div className="modal-dialog modal-lg modal-dialog-centered">
                 <div className="modal-content">
-                    <div className="modal-header flex-column">
+                    <div className="modal-header flex-column text-center">
                     <button type="button" className="btn-close fs-1" data-bs-dismiss="modal" aria-label="Close"></button>
                         <h5 className="modal-title fs-1" id="exampleModalLabel">
                             <b>{item.title}</b>
