@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from 'react'
+import React, {useState} from 'react'
 
 import { projects } from "./globals.js"
 
@@ -17,7 +17,7 @@ function App() {
   const [active, setActive] = useState("");
 
   const modals = Object.keys(projects).map(function (key) {
-    return projects[key].items.map((item) => <PortfolioModal item={item}/>)
+    return projects[key].items.map((item) => <PortfolioModal key={item.title} item={item}/>)
   }
   );
 
@@ -32,7 +32,6 @@ function App() {
       <Contact setActive={setActive}/>
       <Footer />
 
-      {/* create this for each project? use a map */}
       {modals}
 
       <BackToTopBtn />

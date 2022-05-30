@@ -24,9 +24,9 @@ function Home({ setActive }) {
                 <br></br>
 
                 <a className="p-3 m-2 btn btn-light btn-lg shadow-lg border" href={"#"+headerIds.skills} role="button">
-                    <i class="fa-solid fa-chevron-down p-2"></i>
+                    <i className="fa-solid fa-chevron-down p-2"></i>
                     Enter Portfolio
-                    <i class="fa-solid fa-chevron-down p-2"></i>
+                    <i className="fa-solid fa-chevron-down p-2"></i>
                  </a>
                 </div>
             </div>

@@ -1,4 +1,3 @@
-import { projects } from "../globals.js"
 import "./PortfolioModal.css";
 
 export default function PortfolioModal({item}) {
