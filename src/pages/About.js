@@ -5,6 +5,8 @@ import "./About.css";
 import { headerIds, socialMediaLinks } from "../globals";
 
 // TODO: add details about yourself
+// TODO: add hackathons, leadership events
+// TODO: add links for the awards and Extracurricular Activities
 export default function About( {setActive} ) {
     const ref = useRef()
     const isVisible = useOnScreen(ref)
@@ -26,7 +28,58 @@ export default function About( {setActive} ) {
                         <div className="col-md-8">
                             <div className="card-body bg-transparent">
                                 <h4 className="card-title">Mehmet Sahin</h4>
-                                <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+
+                                <p>
+                                    Software Engineer
+                                </p>
+
+                                <br></br>
+
+                                <p> 
+                                I am a computer science student at Brooklyn College. I spend most of my time on programming and learning new technologies. I am truly a self-learner who likes to take challenges and excel his programming skills. I am seeking an internship as a Software Developer to keep learning and contributing to the community.
+                                </p>
+                                
+                                <br></br>
+
+                                <p>
+                                Education:
+                                </p>
+
+                                <ul>
+                                    <li>Brooklyn College - Computer Science. 2021 - 2023, GPA: 3.6</li>
+                                    <li>Borough of Manhattan Community College (BMCC) - Computer Science. 2016 - 2019, GPA: 4.0, Honors Student</li>
+                                </ul>
+
+                                <p> 
+                                Awards:
+                                </p>
+
+                                <ul>
+                                    <li>Trailblazer of the Year at BMCC</li>
+                                    <li>Academic Excellence in Computer Science Award at BMCC</li>
+                                </ul>
+
+                                <p> 
+                                Extracurricular Activities:
+                                </p>
+
+                                <ul>
+                                    <li>First BMCC Hackathon, April 6th, 2019 – Co-Chair</li>
+                                    <li>Goldman Sachs, NY, 2019 – College Collaborative Graduate</li>
+                                    <li>Computer Science Club – VP</li>
+                                    <li>Phi Theta Kappa – Member</li>
+                                    <li>Partner Lending Universal Support (P.L.U.S.) Volunteering  – Volunteer</li>
+                                    <li>BMCC Money Works Scholarship – Ambassador</li>
+                                </ul>
+
+                               <p>Certifications:</p>
+                               <ul>
+                                    <li>Dean’s List at Brooklyn College: Fall 2021, Spring 2022</li>
+                                    <li>Dean’s List at BMCC: Spring 2017, Fall 2017, Spring 2018, Fall 2019</li>
+                                    <li>Certificate of Achievement BMCC Achievers: September 2017 and September 2018</li>
+                                    <li>Certificate of Achievement by Peer Mentoring Program: April 2017 and May 2018</li>
+                                </ul>
+
                             </div>
                             <div className="card-footer bg-transparent">
                                 <a className="btn btn-primary" style={{backgroundColor: "#333333"}} href={socialMediaLinks.github} role="button" target="_blank">
@@ -42,22 +95,6 @@ export default function About( {setActive} ) {
                                 </a>
                             </div>
                         </div>
-                        {/* <div className="card-footer bg-transparent" ref={ref}>
-                            <div className="col-lg-10 mx-auto text-center">
-                                <h4> Learn more about my: </h4>
-                                <a className="p-3 m-2 btn btn-dark btn-lg shadow-lg border" href={"#"+headerIds.skills} role="button">
-                                    <b>Skills</b>
-                                </a>
-                                <a className="p-3 m-2 btn btn-dark btn-lg shadow-lg border" href={"#"+headerIds.projects} role="button">
-                                    <b>Projects</b>
-                                </a>
-                                <a className="p-3 m-2 btn btn-secondary btn-lg shadow-lg border" href="/resume.pdf" target="_blank" role="button">
-                                <i className="fa-solid fa-file-pdf px-1"></i>
-                                    <b>Resume</b>
-                                </a>
-                            </div>
-                        </div> */}
-
                     </div>
                 </div>
             </div>
