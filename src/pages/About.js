@@ -33,11 +33,11 @@ export default function About( {setActive} ) {
                                     <i className="fab fa-github"></i>
                                 </a>
 
-                                <a className="btn btn-primary" style={{backgroundColor: "#0082ca", margin: "10px"}} href={socialMediaLinks.github} role="button" target="_blank">
+                                <a className="btn btn-primary" style={{backgroundColor: "#0082ca", margin: "10px"}} href={socialMediaLinks.linkedin} role="button" target="_blank">
                                     <i className="fab fa-linkedin-in"></i>
                                 </a>
                                 
-                                <a className="btn btn-primary" style={{backgroundColor: "#55acee"}} href={socialMediaLinks.github} role="button" target="_blank">
+                                <a className="btn btn-primary" style={{backgroundColor: "#55acee"}} href={socialMediaLinks.twitter} role="button" target="_blank">
                                     <i className="fab fa-twitter"></i>
                                 </a>
                             </div>
