@@ -14,6 +14,7 @@ export const socialMediaLinks = {
 }
 
 // gh_card has to be generated on https://gh-card.dev/
+// add more images for projects
 export const projects = {
     games: {
         name: "Games",
@@ -26,7 +27,13 @@ export const projects = {
                 tech: "Unity, C#, Photon Pun 2 for multi-player networking, Zenject for Dependency Injection, Firebase and local files for database",
                 link: "https://play.google.com/store/apps/details?id=com.duslerevigamestudio.puncher&hl=en_US&gl=US",
                 modal: "puncher",
-                img: "puncher.png",
+                img: "/puncher/puncher.png",
+                imgs: [
+                    "/puncher/puncher2.jpg",
+                    "/puncher/puncher3.jpg",
+                    "/puncher/puncher4.jpg",
+                    "/puncher/puncher5.jpg",
+                ],
                 gh_card: ""
             },
             {
@@ -36,7 +43,13 @@ export const projects = {
                 tech: "Unity, C#, Zenject for Dependency Injection, Firebase and local files for database",
                 link: "https://play.google.com/store/apps/details?id=com.heyyouherodesignstudio.animalmatch&hl=en_US&gl=US",
                 modal: "animal_match",
-                img: "animal_match.png",
+                img: "/animal_match/animal_match.png",
+                imgs: [
+                    "/animal_match/animalmatch2.jpg",
+                    "/animal_match/animalmatch3.jpg",
+                    "/animal_match/animalmatch4.jpg",
+                    "/animal_match/animalmatch5.jpg",
+                ],
                 gh_card: ""
             },
             {
@@ -48,7 +61,13 @@ export const projects = {
                 tech: "Unity, C#",
                 link: "https://github.com/mixemer/projectx",
                 modal: "aquatic_ruination",
-                img: "aquatic_ruination.png",
+                img: "/aquatic_ruination/aquatic_ruination.png",
+                imgs: [
+                    "/aquatic_ruination/aquatic_ruination2.PNG",
+                    "/aquatic_ruination/aquatic_ruination3.PNG",
+                    "/aquatic_ruination/aquatic_ruination4.PNG",
+                    "/aquatic_ruination/aquatic_ruination5.PNG",
+                ],
                 gh_card: "projectx"
             },
             {
@@ -58,7 +77,8 @@ export const projects = {
                 tech: "Swift, SwiftUI",
                 link: "https://github.com/mixemer/set-game",
                 modal: "set_game",
-                img: "not_found.png",
+                img: "/not_found.png",
+                imgs: [],
                 gh_card: "set-game"
             },
         ]
@@ -75,7 +95,13 @@ export const projects = {
                 tech: "Flutter & Dart, Firebase",
                 link: "https://github.com/mixemer/challengemeup",
                 modal: "challenge_me_up",
-                img: "challenge_me_up.PNG",
+                img: "/challengemeup/challenge_me_up_cover.PNG",
+                imgs: [
+                    "/challengemeup/challenge_me_up.PNG",
+                    "/challengemeup/challenge_me_up2.PNG",
+                    "/challengemeup/challenge_me_up3.PNG",
+                    "/challengemeup/challenge_me_up4.PNG",
+                ],
                 gh_card: ""
             },
             {
@@ -87,7 +113,13 @@ export const projects = {
                 tech: "Swift, UIKit and ARKit",
                 link: "https://devpost.com/software/ar-book-world",
                 modal: "ar_book",
-                img: "ar_book.jpg",
+                img: "/arbook/ar_book.jpg",
+                imgs: [
+                    "/arbook/arbook1.png",
+                    "/arbook/arbook2.png",
+                    "/arbook/arbook3.png",
+                    "/arbook/arbook4.png",
+                ],
                 gh_card: "AR-Book-World"
             },
             {
@@ -97,7 +129,8 @@ export const projects = {
                 tech: "Swift and SwiftUI",
                 link: "https://github.com/mixemer/emoji-art",
                 modal: "emoji_art",
-                img: "not_found.png",
+                img: "/not_found.png",
+                imgs: [],
                 gh_card: "emoji-art"
             },
         ]
@@ -112,7 +145,8 @@ export const projects = {
                 tech: "HTML, CSS, React and Bootstrap",
                 link: "https://mixemer.github.io/portfolio/",
                 modal: "portfolio",
-                img: "not_found.png",
+                img: "/not_found.png",
+                imgs: [],
                 gh_card: "portfolio"
             },
             {
@@ -122,7 +156,8 @@ export const projects = {
                 tech: "HTML, CSS, Svelte and Bootstrap",
                 link: "https://github.com/mixemer/email_spam_database",
                 modal: "email_spam_database",
-                img: "not_found.png",
+                img: "/not_found.png",
+                imgs: [],
                 gh_card: "email_spam_database"
             },
             {
@@ -132,7 +167,8 @@ export const projects = {
                 tech: "HTML, CSS, Svelte and Bootstrap",
                 link: "https://github.com/mixemer/cisc3650-todoapp",
                 modal: "to_do",
-                img: "not_found.png",
+                img: "/not_found.png",
+                imgs: [],
                 gh_card: "cisc3650-todoapp"
             },
         ]
@@ -147,7 +183,8 @@ export const projects = {
                 tech: "NAO Robot, Microsoft Kinect, C# and C++",
                 link: "https://docs.google.com/document/d/1smRE0nahRs23ShaHE_IpykG3tU1S5YVLQFhjCVI1KOg/edit?usp=sharing",
                 modal: "deaf_hearing",
-                img: "assistive_robot.png",
+                img: "/project_imgs/assistive_robot.png",
+                imgs: [],
                 gh_card: ""
             },
             {
@@ -157,7 +194,8 @@ export const projects = {
                 tech: "NAO Robot and C++",
                 link: "https://drive.google.com/file/d/1R2WhlzfBzvARo67VwJegvixXTrSpPY27/view",
                 modal: "deaf_hearing",
-                img: "controlling_nao.png",
+                img: "/project_imgs/controlling_nao.png",
+                imgs: [],
                 gh_card: ""
             },
             {
@@ -167,7 +205,8 @@ export const projects = {
                 tech: "C++",
                 link: "https://github.com/mixemer/LargeInt",
                 modal: "large_int",
-                img: "large_int.jpeg",
+                img: "/project_imgs/large_int.jpeg",
+                imgs: [],
                 gh_card: "LargeInt"
             },
         ]
@@ -182,7 +221,8 @@ export const projects = {
                 tech: "Java",
                 link: "https://github.com/mixemer/BeeSweeper-new",
                 modal: "bee_sweeper",
-                img: "bee_sweeper.jpg",
+                img: "/project_imgs/bee_sweeper.jpg",
+                imgs: [],
                 gh_card: "BeeSweeper-new"
             },
             {
@@ -192,7 +232,8 @@ export const projects = {
                 tech: "Wolfram Language",
                 link: "https://github.com/mixemer/Summer2018Starter/tree/master/Project",
                 modal: "predict_scale_of_satellite",
-                img: "satellite.png",
+                img: "/project_imgs/satellite.png",
+                imgs: [],
                 gh_card: "Summer2018Starter"
             },
             {
@@ -202,7 +243,8 @@ export const projects = {
                 tech: "C++",
                 link: "https://github.com/mixemer/Explosion-of-Particles",
                 modal: "explosion_of_particles",
-                img: "particle.png",
+                img: "/project_imgs/particle.png",
+                imgs: [],
                 gh_card: "Explosion-of-Particles"
             },
             

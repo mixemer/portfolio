@@ -2,6 +2,15 @@ import "./PortfolioModal.css";
 
 export default function PortfolioModal({item}) {
     const dataLink = `https://gh-card.dev/repos/mixemer/${item.gh_card}.svg?link_target=_blank`;
+
+    const imgItms = item.imgs.map((img) => 
+    <div className="col-6 col-sm-3">
+        <img className='img-fluid img-thumbnail rounded mx-auto d-block' style={{ minHeight: "200px", objectFit: "cover" }} src={require('../img'+img)} alt=''/>
+    </div>  
+    );
+
+    const hasDetailImgs = item.imgs.length > 0;
+
     return (
         <>
         <div className="modal fade text-dark" id={item.modal} tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -9,13 +18,27 @@ export default function PortfolioModal({item}) {
                 <div className="modal-content">
                     <div className="modal-header flex-column text-center">
                     <button type="button" className="btn-close fs-1" data-bs-dismiss="modal" aria-label="Close"></button>
+                        <div className="row">
+                        { hasDetailImgs &&
+                            <img className='col-2 img-fluid img-thumbnail rounded mx-auto d-block' src={require('../img'+item.img)} alt='' style={{height: "100px", width: "auto", objectFit: "cover"}}/>
+                        }
                         <h5 className="modal-title fs-1" id="exampleModalLabel">
                             <b>{item.title}</b>
                         </h5>
+                        </div>
                         <p className="p-0 m-0">{item.caption}</p>
                     </div>
                     <div className="modal-body">
-                    <img className='img-fluid img-thumbnail rounded mx-auto d-block' src={require('../img/project_imgs/'+item.img)} alt=''/>
+                    
+                    { !hasDetailImgs &&
+                        <img className='img-fluid img-thumbnail rounded mx-auto d-block' src={require('../img'+item.img)} alt=''/>
+                    }
+
+                    <div className="row justify-content-center">
+                        { hasDetailImgs &&
+                            imgItms
+                        }
+                    </div>
 
                     </div>
                     { item.detail.length > 0 &&
