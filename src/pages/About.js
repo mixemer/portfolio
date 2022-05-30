@@ -24,6 +24,20 @@ export default function About( {setActive} ) {
                     <div className="row g-0">
                         <div className="col-md-4">
                             <img src={require('../img/profile.JPG')} className="img ms-4 mt-3 mb-3" style={{ maxWidth: "80%" }} alt="..."></img>
+
+                            <div className='text-center'>
+                                <a className="btn btn-primary border" style={{backgroundColor: "#333333"}} href={socialMediaLinks.github} role="button" target="_blank">
+                                    <i className="fab fa-github fs-3"></i>
+                                </a>
+
+                                <a className="btn btn-primary border" style={{backgroundColor: "#0082ca", margin: "10px"}} href={socialMediaLinks.linkedin} role="button" target="_blank">
+                                    <i className="fab fa-linkedin-in fs-3 "></i>
+                                </a>
+                                
+                                <a className="btn btn-primary border" style={{backgroundColor: "#55acee"}} href={socialMediaLinks.twitter} role="button" target="_blank">
+                                    <i className="fab fa-twitter fs-3"></i>
+                                </a>
+                            </div>
                         </div>
                         <div className="col-md-8">
                             <div className="card-body bg-transparent">
@@ -80,19 +94,6 @@ export default function About( {setActive} ) {
                                     <li>Certificate of Achievement by Peer Mentoring Program: April 2017 and May 2018</li>
                                 </ul>
 
-                            </div>
-                            <div className="card-footer bg-transparent">
-                                <a className="btn btn-primary" style={{backgroundColor: "#333333"}} href={socialMediaLinks.github} role="button" target="_blank">
-                                    <i className="fab fa-github"></i>
-                                </a>
-
-                                <a className="btn btn-primary" style={{backgroundColor: "#0082ca", margin: "10px"}} href={socialMediaLinks.linkedin} role="button" target="_blank">
-                                    <i className="fab fa-linkedin-in"></i>
-                                </a>
-                                
-                                <a className="btn btn-primary" style={{backgroundColor: "#55acee"}} href={socialMediaLinks.twitter} role="button" target="_blank">
-                                    <i className="fab fa-twitter"></i>
-                                </a>
                             </div>
                         </div>
                     </div>
