@@ -10,7 +10,7 @@ export default function SkillCard({ skill }) {
                 <div className="card-body">
                     <h4 className="card-title"><b>{skill.name}</b></h4>
                     <p className="card-text text-faded opacity-75 fs-6">
-                     {skill.description}
+                     {skill.detail}
                     </p>
                 </div>
             </div>

@@ -1,27 +1,43 @@
 import { projects } from "../globals.js"
+import "./PortfolioModal.css";
 
 export default function PortfolioModal({item}) {
     const dataLink = `https://gh-card.dev/repos/mixemer/${item.gh_card}.svg?link_target=_blank`;
     return (
         <>
         <div className="modal fade text-dark" id={item.modal} tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div className="modal-dialog modal-lg">
+            <div className="modal-dialog modal-lg modal-dialog-centered">
                 <div className="modal-content">
-                    <div className="modal-header">
-                        <h5 className="modal-title" id="exampleModalLabel">
-                            {item.title}
+                    <div className="modal-header flex-column">
+                    <button type="button" className="btn-close fs-1" data-bs-dismiss="modal" aria-label="Close"></button>
+                        <h5 className="modal-title fs-1" id="exampleModalLabel">
+                            <b>{item.title}</b>
                         </h5>
-                        <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        <p className="p-0 m-0">{item.caption}</p>
                     </div>
                     <div className="modal-body">
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                    <img className='img-fluid img-thumbnail rounded mx-auto d-block' src={require('../img/project_imgs/'+item.img)} alt=''/>
+
                     </div>
+                    { item.detail.length > 0 &&
+                        <div className="modal-body">
+                         <p>{item.detail}</p>
+                        </div>
+                    }
+
                     <div className="modal-body">
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                        <p>Created using: {item.tech}</p>
+                        <p><b>View this project on:</b>
+                        <a href= {item.link} target="_blank"> {item.link}</a>
+                        </p>
                     </div>
 
+
+
                     {/* https://github.com/nwtgck/gh-card https://gh-card.dev/ */}
-                    <object className="mx-auto mb-3" type="image/svg+xml" data={dataLink}></object>
+                    { item.gh_card.length > 0 &&
+                        <object className="mx-auto mb-3" type="image/svg+xml" data={dataLink}></object>
+                    }
 
                     <div className="modal-footer">
                         <button type="button" className="btn btn-secondary" data-bs-dismiss="modal">Close</button>
