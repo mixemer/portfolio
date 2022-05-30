@@ -17,7 +17,7 @@ function App() {
   const [active, setActive] = useState("");
 
   const modals = Object.keys(projects).map(function (key) {
-    return projects[key].map((item) => <PortfolioModal item={item}/>)
+    return projects[key].items.map((item) => <PortfolioModal item={item}/>)
   }
   );
 
