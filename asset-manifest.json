@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.449cd52e.css",
-    "main.js": "/portfolio/static/js/main.d70157f4.js",
+    "main.css": "/portfolio/static/css/main.01b360ca.css",
+    "main.js": "/portfolio/static/js/main.d0cd828d.js",
     "static/js/787.5809834d.chunk.js": "/portfolio/static/js/787.5809834d.chunk.js",
+    "static/media/bg2.jpg": "/portfolio/static/media/bg2.1850caf7a0ca020b91f1.jpg",
     "static/media/particle.png": "/portfolio/static/media/particle.85101d54df5804dfda49.png",
     "static/media/satellite.png": "/portfolio/static/media/satellite.1b3b1266399055c6eea8.png",
     "static/media/assistive_robot.png": "/portfolio/static/media/assistive_robot.40938734fde39548ee6e.png",
     "static/media/controlling_nao.png": "/portfolio/static/media/controlling_nao.ee83e547e1d0c34a760f.png",
-    "static/media/background.jpg": "/portfolio/static/media/background.0f1f88564107b9560b37.jpg",
     "static/media/challenge_me_up.PNG": "/portfolio/static/media/challenge_me_up.476e93fe93075570ca21.PNG",
     "static/media/animal_match.png": "/portfolio/static/media/animal_match.1b3ed2ed25c4a091d9af.png",
     "static/media/not_found.png": "/portfolio/static/media/not_found.624f35fa494ab7cc57b8.png",
@@ -27,12 +27,12 @@
     "static/media/blueprint-icons-16.woff2?": "/portfolio/static/media/blueprint-icons-16.d59af1d43e67354fabe4.woff2",
     "static/media/ar_book.jpg": "/portfolio/static/media/ar_book.d46c2f0d556b9091086a.jpg",
     "index.html": "/portfolio/index.html",
-    "main.449cd52e.css.map": "/portfolio/static/css/main.449cd52e.css.map",
-    "main.d70157f4.js.map": "/portfolio/static/js/main.d70157f4.js.map",
+    "main.01b360ca.css.map": "/portfolio/static/css/main.01b360ca.css.map",
+    "main.d0cd828d.js.map": "/portfolio/static/js/main.d0cd828d.js.map",
     "787.5809834d.chunk.js.map": "/portfolio/static/js/787.5809834d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.449cd52e.css",
-    "static/js/main.d70157f4.js"
+    "static/css/main.01b360ca.css",
+    "static/js/main.d0cd828d.js"
   ]
 }
