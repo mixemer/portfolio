@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.01b360ca.css",
-    "main.js": "/portfolio/static/js/main.02d0ed2f.js",
+    "main.css": "/portfolio/static/css/main.5e0204df.css",
+    "main.js": "/portfolio/static/js/main.714893b5.js",
     "static/js/787.5809834d.chunk.js": "/portfolio/static/js/787.5809834d.chunk.js",
-    "static/media/bg2.jpg": "/portfolio/static/media/bg2.1850caf7a0ca020b91f1.jpg",
     "static/media/arbook4.png": "/portfolio/static/media/arbook4.18f08a75ec0e91e24e7d.png",
     "static/media/arbook3.png": "/portfolio/static/media/arbook3.30ddf6f3c81c9e7d4104.png",
     "static/media/particle.png": "/portfolio/static/media/particle.85101d54df5804dfda49.png",
     "static/media/aquatic_ruination2.PNG": "/portfolio/static/media/aquatic_ruination2.078292c7d487112cff27.PNG",
     "static/media/satellite.png": "/portfolio/static/media/satellite.1b3b1266399055c6eea8.png",
+    "static/media/bg2.jpg": "/portfolio/static/media/bg2.d468c5009e174dc44bc5.jpg",
     "static/media/aquatic_ruination3.PNG": "/portfolio/static/media/aquatic_ruination3.cec49813791c862fb75c.PNG",
     "static/media/aquatic_ruination4.PNG": "/portfolio/static/media/aquatic_ruination4.c27d53fc91a9a13cd64f.PNG",
     "static/media/assistive_robot.png": "/portfolio/static/media/assistive_robot.40938734fde39548ee6e.png",
@@ -48,12 +48,12 @@
     "static/media/ar_book.jpg": "/portfolio/static/media/ar_book.d46c2f0d556b9091086a.jpg",
     "static/media/challenge_me_up_cover.PNG": "/portfolio/static/media/challenge_me_up_cover.e38ba80b1455fc4e72c4.PNG",
     "index.html": "/portfolio/index.html",
-    "main.01b360ca.css.map": "/portfolio/static/css/main.01b360ca.css.map",
-    "main.02d0ed2f.js.map": "/portfolio/static/js/main.02d0ed2f.js.map",
+    "main.5e0204df.css.map": "/portfolio/static/css/main.5e0204df.css.map",
+    "main.714893b5.js.map": "/portfolio/static/js/main.714893b5.js.map",
     "787.5809834d.chunk.js.map": "/portfolio/static/js/787.5809834d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.01b360ca.css",
-    "static/js/main.02d0ed2f.js"
+    "static/css/main.5e0204df.css",
+    "static/js/main.714893b5.js"
   ]
 }
