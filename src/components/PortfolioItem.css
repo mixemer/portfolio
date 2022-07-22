@@ -8,6 +8,7 @@
     display: block;
     position: relative;
     overflow: hidden;
+    background-color: transparent;
 }
 
 .portfolio-item .caption {
@@ -40,12 +41,15 @@
     object-fit: cover;
 }
 
-.portfolio-item:hover {
+.portfolio-item:hover .portfolio-img{
     clip-path: inset(1rem);
 }
+
 .portfolio-item:hover .caption {
     background-color: rgba(41, 136, 188, 0.5);
+    clip-path: inset(1rem);
 }
+
 .portfolio-item .caption {
-    background: linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.6) 50%);;
+    background: linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.6) 50%);
 }
