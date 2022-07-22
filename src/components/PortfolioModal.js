@@ -5,7 +5,7 @@ export default function PortfolioModal({item}) {
 
     const imgItms = item.imgs.map((img) => 
     <div className="col-6 col-sm-3">
-        <img className='img-fluid img-thumbnail rounded mx-auto d-block' style={{ minHeight: "200px", objectFit: "cover" }} src={require('../img'+img)} alt=''/>
+        <img className='img-fluid img-thumbnail rounded mx-auto d-block' style={{ minHeight: "200px", objectFit: "cover" }} src={require('../img'+img)} alt='Project thumbnail'/>
     </div>  
     );
 
@@ -20,7 +20,7 @@ export default function PortfolioModal({item}) {
                     <button type="button" className="btn-close fs-1" data-bs-dismiss="modal" aria-label="Close"></button>
                         <div className="row">
                         { hasDetailImgs &&
-                            <img className='col-2 img-fluid img-thumbnail rounded mx-auto d-block' src={require('../img'+item.img)} alt='' style={{height: "100px", width: "auto", objectFit: "cover"}}/>
+                            <img className='col-2 img-fluid img-thumbnail rounded mx-auto d-block' src={require('../img'+item.img)} alt='Project image' style={{height: "100px", width: "auto", objectFit: "cover"}}/>
                         }
                         <h5 className="modal-title fs-1" id="exampleModalLabel">
                             <b>{item.title}</b>
@@ -31,7 +31,7 @@ export default function PortfolioModal({item}) {
                     <div className="modal-body">
                     
                     { !hasDetailImgs &&
-                        <img className='img-fluid img-thumbnail rounded mx-auto d-block' src={require('../img'+item.img)} alt=''/>
+                        <img className='img-fluid img-thumbnail rounded mx-auto d-block' src={require('../img'+item.img)} alt='Project image'/>
                     }
 
                     <div className="row justify-content-center">

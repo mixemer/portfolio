@@ -17,7 +17,7 @@ function Home({ setActive }) {
         <div className="home d-flex" ref={ref}>
             <div className="container text-center my-auto home_content">
                 <div>
-                <img className="img-fluid img-thumbnail img-circle m-auto" id="profile_pic" src={require('../img/profile.JPG')} width="250" height="250" alt="my profile"/>
+                <img className="img-fluid img-thumbnail img-circle m-auto" id="profile_pic" src={require('../img/profile.JPG')} width="250" height="250" alt="Professional picture of Mehmet Sahin"/>
                 <h1 className="mb-1"> Mehmet Sahin </h1>
                 <h3 className="mb-5"> Software Enginner </h3>
 

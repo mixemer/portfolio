@@ -14,7 +14,7 @@ export default function PortfolioItem( {item} ) {
                         </p>
                     </span>
                 </span>
-                <img className='img-fluid portfolio-img' src={require("../img"+item.img)} alt=''/>
+                <img className='img-fluid portfolio-img' src={require("../img"+item.img)} alt='Project image'/>
             </a>
         </div>
     );

@@ -23,7 +23,7 @@ export default function About( {setActive} ) {
                 <div className="card mb-3 bg-transparent">
                     <div className="row g-0">
                         <div className="col-md-4">
-                            <img src={require('../img/profile.JPG')} className="img ms-4 mt-3 mb-3" style={{ maxWidth: "80%" }} alt="..."></img>
+                            <img src={require('../img/profile.JPG')} className="img ms-4 mt-3 mb-3" style={{ maxWidth: "80%" }} alt="Professional picture of Mehmet Sahin"></img>
 
                             <div className='text-center'>
                                 <a className="btn btn-primary border" style={{backgroundColor: "#333333"}} href={socialMediaLinks.github} role="button" target="_blank">
