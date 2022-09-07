@@ -18,8 +18,12 @@ export default function About( {setActive} ) {
       }, [isVisible])
 
     return (
-        <section className="content-section about" id={headerIds.about} ref={ref}>
+        <section className="content-section about " id={headerIds.about} ref={ref}>
             <div className="container">
+                <div className='text-center'>
+                    <h2> Hi, About Me </h2>
+                </div> 
+
                 <div className="card mb-3 bg-transparent">
                     <div className="row g-0">
                         <div className="col-md-4">
@@ -41,7 +45,7 @@ export default function About( {setActive} ) {
                         </div>
                         <div className="col-md-8">
                             <div className="card-body bg-transparent">
-                                <h4 className="card-title">Mehmet Sahin</h4>
+                                <h4 className="card-title"> I am Mehmet Sahin</h4>
 
                                 <p>
                                     Software Engineer
@@ -50,7 +54,7 @@ export default function About( {setActive} ) {
                                 <br></br>
 
                                 <p> 
-                                I am a computer science student at Brooklyn College. I spend most of my time on programming and learning new technologies. I am truly a self-learner who likes to take challenges and excel his programming skills. I am seeking an internship as a Software Developer to keep learning and contributing to the community.
+                                I am a computer science student at Brooklyn College. I spend most of my time on programming and learning new technologies. I am truly a self-learner who likes to take challenges and excel his programming skills.
                                 </p>
                                 
                                 <br></br>
