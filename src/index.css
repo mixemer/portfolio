@@ -4,13 +4,13 @@
 @import "~@blueprintjs/icons/lib/css/blueprint-icons.css";
 
 :root {
-  --primary: #92c8f7;
-  --active: #8ac4f7;
-  --backround: rgb(28, 30, 31);
+  --primary: #009BB8;
+  --active: #009BB8;
 
-  --backround-2: #6787AB;
-  --backround-3: #4B4C2A;
-  --backround-4: #DEE6F0;
+  --text-color: black;
+
+  --backround-1: rgb(28, 30, 31);
+  --backround-2: #009BB8;
 }
 
 html {
