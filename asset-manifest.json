@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.5e0204df.css",
-    "main.js": "/portfolio/static/js/main.61daac5d.js",
+    "main.css": "/portfolio/static/css/main.ae941841.css",
+    "main.js": "/portfolio/static/js/main.a4e16a5c.js",
     "static/js/787.5809834d.chunk.js": "/portfolio/static/js/787.5809834d.chunk.js",
     "static/media/arbook4.png": "/portfolio/static/media/arbook4.18f08a75ec0e91e24e7d.png",
     "static/media/arbook3.png": "/portfolio/static/media/arbook3.30ddf6f3c81c9e7d4104.png",
@@ -28,6 +28,7 @@
     "static/media/challenge_me_up3.PNG": "/portfolio/static/media/challenge_me_up3.11a214f74005c16add3a.PNG",
     "static/media/puncher.png": "/portfolio/static/media/puncher.aa72e8a2a4f3cf86b6bb.png",
     "static/media/arbook2.png": "/portfolio/static/media/arbook2.ea3266bba4ce663df7ef.png",
+    "static/media/resume.pdf": "/portfolio/static/media/resume.bcba00179ead2510ea58.pdf",
     "static/media/animalmatch4.jpg": "/portfolio/static/media/animalmatch4.6be49536ecb988330ed3.jpg",
     "static/media/animalmatch5.jpg": "/portfolio/static/media/animalmatch5.538cdc054319679cc007.jpg",
     "static/media/puncher3.jpg": "/portfolio/static/media/puncher3.4a00fbeb19ebd0d72770.jpg",
@@ -39,7 +40,6 @@
     "static/media/animalmatch3.jpg": "/portfolio/static/media/animalmatch3.2c138f6426a9e80ddccd.jpg",
     "static/media/blueprint-icons-20.woff?": "/portfolio/static/media/blueprint-icons-20.37c48d148164e6a1b9b1.woff",
     "static/media/blueprint-icons-16.woff?": "/portfolio/static/media/blueprint-icons-16.bdd01e08b240fc397e5a.woff",
-    "static/media/resume.pdf": "/portfolio/static/media/resume.c79c940d65c803c36b0b.pdf",
     "static/media/large_int.jpeg": "/portfolio/static/media/large_int.440c742b565c253ab87a.jpeg",
     "static/media/bee_sweeper.jpg": "/portfolio/static/media/bee_sweeper.5c875311f6adce88655b.jpg",
     "static/media/aquatic_ruination.png": "/portfolio/static/media/aquatic_ruination.3b09f1c6146d9c70830e.png",
@@ -48,12 +48,12 @@
     "static/media/ar_book.jpg": "/portfolio/static/media/ar_book.d46c2f0d556b9091086a.jpg",
     "static/media/challenge_me_up_cover.PNG": "/portfolio/static/media/challenge_me_up_cover.e38ba80b1455fc4e72c4.PNG",
     "index.html": "/portfolio/index.html",
-    "main.5e0204df.css.map": "/portfolio/static/css/main.5e0204df.css.map",
-    "main.61daac5d.js.map": "/portfolio/static/js/main.61daac5d.js.map",
+    "main.ae941841.css.map": "/portfolio/static/css/main.ae941841.css.map",
+    "main.a4e16a5c.js.map": "/portfolio/static/js/main.a4e16a5c.js.map",
     "787.5809834d.chunk.js.map": "/portfolio/static/js/787.5809834d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5e0204df.css",
-    "static/js/main.61daac5d.js"
+    "static/css/main.ae941841.css",
+    "static/js/main.a4e16a5c.js"
   ]
 }
