@@ -4,7 +4,7 @@ import { headerIds, socialMediaLinks } from "../globals";
 
 export default function Footer() {
     return (
-        <footer className="footer text-dark">
+        <footer className="footer">
             <div className="container">
                 <div className="row text-center">
                     {/* Copy right */}

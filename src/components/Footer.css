@@ -1,6 +1,7 @@
 .footer {
     padding-bottom: 2rem;
     padding-top: 4rem;
+    background-color: var(--backround-1);
 }
 
 .quicklinks {
