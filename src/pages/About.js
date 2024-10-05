@@ -54,7 +54,11 @@ export default function About( {setActive} ) {
                                 <br></br>
 
                                 <p> 
-                                I am a computer science student at Brooklyn College. I spend most of my time on programming and learning new technologies. I am truly a self-learner who likes to take challenges and excel his programming skills.
+                                Passionate software engineer with a strong problem-solving aptitude and extensive experience across various domains
+                                of computer science. Proficient in game development, backend systems and web development. Demonstrated expertise
+                                in C#, .NET, and C++ through professional projects and academic research. Currently contributing to a casino gaming
+                                company, where I develop games and backend systems using the .NET framework, alongside DevOps tasks utilizing
+                                GitLab. Adept at working in Agile environments and committed to delivering high-quality, reliable software solutions.
                                 </p>
                                 
                                 <br></br>
