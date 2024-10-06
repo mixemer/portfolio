@@ -47,18 +47,8 @@ export default function About( {setActive} ) {
                             <div className="card-body bg-transparent">
                                 <h4 className="card-title"> I am Mehmet Sahin</h4>
 
-                                <p>
-                                    Software Engineer
-                                </p>
-
-                                <br></br>
-
                                 <p> 
-                                Passionate software engineer with a strong problem-solving aptitude and extensive experience across various domains
-                                of computer science. Proficient in game development, backend systems and web development. Demonstrated expertise
-                                in C#, .NET, and C++ through professional projects and academic research. Currently contributing to a casino gaming
-                                company, where I develop games and backend systems using the .NET framework, alongside DevOps tasks utilizing
-                                GitLab. Adept at working in Agile environments and committed to delivering high-quality, reliable software solutions.
+                                I'm a passionate software engineer with strong problem-solving skills and extensive experience across various domains of computer science. I'm proficient in game development, backend systems, and web development. I've demonstrated expertise in C#, .NET, and C++ through professional projects and academic research. Currently, I'm contributing to a casino gaming company, where I develop games and backend systems using the .NET framework, along with handling DevOps tasks using GitLab. I'm adept at working in Agile environments and committed to delivering high-quality, reliable software solutions.
                                 </p>
                                 
                                 <br></br>
