@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.625d0277.css",
-    "main.js": "/portfolio/static/js/main.293a9282.js",
+    "main.js": "/portfolio/static/js/main.beadb7e5.js",
     "static/js/787.5809834d.chunk.js": "/portfolio/static/js/787.5809834d.chunk.js",
     "static/media/arbook4.png": "/portfolio/static/media/arbook4.18f08a75ec0e91e24e7d.png",
     "static/media/arbook3.png": "/portfolio/static/media/arbook3.30ddf6f3c81c9e7d4104.png",
@@ -49,11 +49,11 @@
     "static/media/challenge_me_up_cover.PNG": "/portfolio/static/media/challenge_me_up_cover.e38ba80b1455fc4e72c4.PNG",
     "index.html": "/portfolio/index.html",
     "main.625d0277.css.map": "/portfolio/static/css/main.625d0277.css.map",
-    "main.293a9282.js.map": "/portfolio/static/js/main.293a9282.js.map",
+    "main.beadb7e5.js.map": "/portfolio/static/js/main.beadb7e5.js.map",
     "787.5809834d.chunk.js.map": "/portfolio/static/js/787.5809834d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.625d0277.css",
-    "static/js/main.293a9282.js"
+    "static/js/main.beadb7e5.js"
   ]
 }
